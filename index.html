@@ -11,6 +11,30 @@
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/seal_icon.png">
+  <style>
+    body {
+      background-image: url('images/background.png');
+      background-position: center;
+      position: relative;
+      padding: 0px;
+      margin: 0px;
+      border: 0px;
+    }
+
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0px;
+      margin: 0px;
+      border: 0px;
+      background-color: rgba(255, 255, 255, 0.9);
+      z-index: -1;
+    }
+  </style>
 </head>
 
 <body>
@@ -29,10 +53,10 @@
                   </p>
                   <p>I am a machine learning engineer at <a href="https://causalfoundry.ai/"> Causal Foundry</a>
                     in Barcelona, Spain.
-                    At CF, I implement deep learning algorithms (bandits, time to event models etc.)
-                    to run
-                    interventions in healthcare. I also work with Go and PostgreSQL to develop and maintain our data
-                    pipeline and backend.
+                    At CF, I develop and maintain our data pipeline and backend using Go and PostgreSQL. I also
+                    implement deep
+                    learning algorithms particularly contextual bandits and time to event models to run interventions in
+                    healthcare.
                   </p>
                   <p>I graduated with a dual degree (bachelors and masters) from the Department of Computer Science
                     and
@@ -47,12 +71,11 @@
                     a digital consultant in Tokyo, Japan.
                   </p>
                   <p>
-                    Meanwhile, I am working on developing my blog
-                    further, mostly looking at creating backends for large applications these days.
+                    Meanwhile, I've also been focusing on developing backends for large applications.
                   </p>
                   <p>
-                    I have done research internships at the University of British Columbia,
-                    Vancouver</a> and the University of Sydney. I worked on large scale pattern matching and facial
+                    I have done research internships at the University of British Columbia</a> and the University of
+                    Sydney. I worked on large scale pattern matching and facial
                     landmarks detection, respectively, in these internships. I have also interned at Goldman Sachs in
                     Summer 2020. I like to simplify complex concepts (which often requires going back to
                     first principles) through my blog posts, and visualizations.
@@ -68,8 +91,8 @@
                   </p>
                 </td>
                 <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="images/AdityaRastogi_circle.jpg" target="_blank"><img style="width:100%;max-width:100%"
-                      alt="profile photo" src="images/AdityaRastogi_circle.jpg" class="hoverZoomLink"></a>
+                  <a href="images/AdityaRastogi_circle.jpg" target="_blank"><img style="width:150%;max-width:150%"
+                      alt="profile photo" src="images/AdityaRastogi_circle.png" class="hoverZoomLink"></a>
                 </td>
               </tr>
 
@@ -89,7 +112,7 @@
                 <tbody>
                   <tr>
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/darsi.png'>
+                      <img src='images/darsi.png' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://www.sciencedirect.com/science/article/pii/S1877750324001947" target="_blank">
@@ -106,14 +129,13 @@
                       <em>Oct</em>, 2024
                       <br>
                       <p></p>
-                      <p>An open-source synthetic data generator of user behavior for testing reinforcement learning
-                        algorithms in the context of mobile health interventions using open-source SDK for tracking,
-                        organizing, and labeling data ready for machine learning models.</p>
+                      <p>An efficient hybrid of CNN and LSTM components to improve prediction of aerodynamic
+                        coefficients for aperiodic and chaotic systems</p>
                     </td>
                   </tr>
                   <tr>
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/syngen.png'>
+                      <img src='images/cj.png' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://arxiv.org/pdf/2408.08024" target="_blank">
@@ -130,14 +152,13 @@
                       <em>Aug</em>, 2024
                       <br>
                       <p></p>
-                      <p>An open-source synthetic data generator of user behavior for testing reinforcement learning
-                        algorithms in the context of mobile health interventions using open-source SDK for tracking,
-                        organizing, and labeling data ready for machine learning models.</p>
+                      <p>An RL platform that enhances end-to-end user journeys in healthcare digital tools through
+                        personalization</p>
                     </td>
                   </tr>
                   <tr>
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/syngen.png'>
+                      <img src='images/aibs.png' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://arxiv.org/pdf/2408.07647" target="_blank">
@@ -154,14 +175,13 @@
                       <em>Aug</em>, 2024
                       <br>
                       <p></p>
-                      <p>An open-source synthetic data generator of user behavior for testing reinforcement learning
-                        algorithms in the context of mobile health interventions using open-source SDK for tracking,
-                        organizing, and labeling data ready for machine learning models.</p>
+                      <p>An RL operational system to deliver personalized behavioral interventions through mobile health
+                        applications</p>
                     </td>
                   </tr>
                   <tr>
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/syngen.png'>
+                      <img src='images/epidamik.png' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://arxiv.org/pdf/2408.07629" target="_blank">
@@ -178,14 +198,14 @@
                       <em>Aug</em>, 2024
                       <br>
                       <p></p>
-                      <p>An open-source synthetic data generator of user behavior for testing reinforcement learning
-                        algorithms in the context of mobile health interventions using open-source SDK for tracking,
-                        organizing, and labeling data ready for machine learning models.</p>
+                      <p>Describes the development of an AI-native mobile app for CHWs and outlines the upcoming
+                        RL-based adaptive intervention plans, all aimed at enhancing health worker engagement,
+                        efficiency, and patient outcomes</p>
                     </td>
                   </tr>
                   <tr>
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/syngen.png'>
+                      <img src='images/takemi.png' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://www.hsph.harvard.edu/takemi/wp-content/uploads/sites/114/2023/10/TakemiSymposium_PerianezKeynote.pdf"
@@ -204,14 +224,14 @@
                       <em>Oct</em>, 2023
                       <br>
                       <p></p>
-                      <p>An open-source synthetic data generator of user behavior for testing reinforcement learning
-                        algorithms in the context of mobile health interventions using open-source SDK for tracking,
-                        organizing, and labeling data ready for machine learning models.</p>
+                      <p>A framework detailing how integration of AI into digital health applications focused on supply
+                        chain operation, patient management, and capacity building, etc. can improve health system and
+                        public health performance</p>
                     </td>
                   </tr>
                   <tr>
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/syngen.png'>
+                      <img src='images/syngen.png' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://www.researchgate.net/publication/369021374_Synthetic_Data_Generator_for_Adaptive_Interventions_in_Global_Health"
@@ -252,7 +272,7 @@
 
                   <tr>
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/switch1.png'>
+                      <img src='images/switch1.png' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://medium.com/@bentou.pub/implementing-switch-transformers-from-scratch-in-pytorch-part-1-e8823b474a91"
@@ -274,7 +294,7 @@
 
                   <tr bgcolor="#ffffd0">
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/alphazero3.png'>
+                      <img src='images/alphazero3.png' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://medium.com/@bentou.pub/alphazero-from-scratch-in-pytorch-for-the-game-of-chain-reaction-part-3-c3fbf0d6f986"
@@ -439,7 +459,7 @@
 
                   <tr bgcolor="#ffffd0">
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/sal.png'>
+                      <img src='images/saliency.png' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://medium.com/datadriveninvestor/visualizing-neural-networks-using-saliency-maps-in-pytorch-289d8e244ab4?source=friends_link&sk=37de912972716f67b3acab5c9bcdd9b0"
@@ -457,7 +477,7 @@
 
                   <tr bgcolor="#ffffd0">
                     <td style="padding:20px;width:25%;vertical-align:middle">
-                      <img src='images/race.gif'>
+                      <img src='images/race.gif' width="160" height="160">
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://towardsdatascience.com/solving-racetrack-in-reinforcement-learning-using-monte-carlo-control-bdee2aa4f04e?sk=926f05a3660c6bf4d8c6a81be77645c5"
