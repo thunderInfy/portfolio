@@ -13,7 +13,7 @@ function setup() {
 	canvas.style.top = 0;
 	canvas.style.left = 0;
 	canvas.style.zIndex = -1;
-	for (let i = 0; i < 250; i++) {
+	for (let i = 0; i < 100; i++) {
 		vehicles.push(new Vehicle());
 	}
 	angleMode(DEGREES);
@@ -131,9 +131,9 @@ class Vehicle {
 		let highX = width * 0.8;
 		let x = this.center.x;
 		if (x < lowX) {
-			transparency = map(x, 0, lowX, 150, 20);
+			transparency = map(x, 0, lowX, 80, 20);
 		} else if (x > highX) {
-			transparency = map(x, highX, width, 20, 150);
+			transparency = map(x, highX, width, 20, 80);
 		}
 
 		let red = map(x, 0, width, 255, 0);
