@@ -13,7 +13,7 @@ function setup() {
 	canvas.style.top = 0;
 	canvas.style.left = 0;
 	canvas.style.zIndex = -1;
-	for (let i = 0; i < 100; i++) {
+	for (let i = 0; i < 20; i++) {
 		vehicles.push(new Vehicle());
 	}
 	angleMode(DEGREES);
